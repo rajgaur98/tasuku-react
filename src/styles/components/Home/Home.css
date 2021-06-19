@@ -1,0 +1,11 @@
+.home-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.home-container .main-container {
+  display: flex;
+  height: calc(100vh - 75px);
+}

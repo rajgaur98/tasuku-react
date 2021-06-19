@@ -1,0 +1,47 @@
+.section-container {
+  box-sizing: border-box;
+  min-width: fit-content;
+  overflow-y: auto;
+  padding: 10px;
+  margin: 10px;
+  -webkit-margin-collapse: collapse;
+}
+
+.section-container:hover {
+  box-shadow: 0 0 5px 1px #e6e6e6;
+}
+
+.section-container header p {
+  color: #595959;
+  text-align: center;
+}
+
+.section-container header .icon {
+  display: inline;
+  float: right;
+  color: #595959;
+  cursor: pointer;
+  transition: 250ms ease-out;
+}
+
+.section-container header .icon:hover {
+  color: #008000;
+}
+
+.section-container footer {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #595959;
+}
+
+.section-container footer:hover {
+  color: #008000;
+}
+
+.section-container footer .icon {
+  display: inline;
+  margin-right: 10px;
+  transition: 250ms ease-out;
+}

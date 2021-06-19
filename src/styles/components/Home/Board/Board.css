@@ -1,0 +1,8 @@
+.board-container {
+  box-sizing: border-box;
+  display: flex;
+  position: relative;
+  width: 100%;
+  background-color: #f2f2f2;
+  overflow-x: auto;
+}

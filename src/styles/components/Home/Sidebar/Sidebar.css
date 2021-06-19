@@ -1,0 +1,16 @@
+.sidebar-container {
+  min-width: 200px;
+  background-color: #730099;
+  color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.sidebar-container > div {
+  margin: 20px 0;
+  font-size: 16px;
+}
+
+.sidebar-container > div > span {
+  margin-left: 5px;
+}
