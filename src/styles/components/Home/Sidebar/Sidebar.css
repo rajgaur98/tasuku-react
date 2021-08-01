@@ -9,6 +9,11 @@
 .sidebar-container > div {
   margin: 20px 0;
   font-size: 16px;
+  cursor: pointer;
+}
+
+.sidebar-container > div:hover {
+  color: #ffccff;
 }
 
 .sidebar-container > div > span {
